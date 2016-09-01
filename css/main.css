@@ -35,14 +35,16 @@ li {
 }
 
 ul {
-  
+
   margin: 0px;
   word-spacing: 2em;
   list-style-type: none;
 }
 
 .nike-shoes {
-  margin: 0px 50px 0px 50px;
+  width: 80%;
+  /*margin: 0px 50px 0px 50px;*/
+  margin: auto;
 }
 
 .shoe {
@@ -60,4 +62,21 @@ ul {
     content:"";
     display:table;
     clear:both;
+}
+
+.jordan {
+  margin: 0 20px 0 20px;
+
+  text-align: center;
+}
+
+.jordan img {
+  margin: 5px 10px 5px 5px;
+  float: left;
+  width: 250px;
+  height: 250px;
+}
+
+.jordan p {
+  text-align: left;
 }
