@@ -1,0 +1,60 @@
+html {}
+body {
+  height: 2000px;
+  font-family: "times new roman", sans-serif;
+  font-weight: 200;
+  color: black;
+
+}
+
+.nike-text {
+  text-align: center;
+}
+
+nav {
+  color: white;
+
+}
+
+.image {
+  height: 600px;
+  background-image: url( "../images/JordanAir.jpg");
+  background-size: cover;
+
+}
+
+img {
+  width: 100%;
+}
+
+li {
+
+  display: inline-block;
+}
+
+ul {
+  padding-top: 20px;
+  margin: 0px;
+  word-spacing: 2em;
+  list-style-type: none;
+}
+
+.nike-shoes {
+  margin: 0px 50px 0px 50px;
+}
+
+.shoe {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*border-style: solid;;*/
+  margin: 15px 15px 15px 15px;
+  float: left;
+  height: 200px;
+  width:250px;
+  padding: 5px 5px 5px 5px;
+}
+
+.container::after {
+    content:"";
+    display:table;
+    clear:both;
+}
