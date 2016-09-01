@@ -13,6 +13,7 @@ body {
 
 nav {
   color: white;
+  border-bottom: 1px solid lightgrey;
 
 }
 
@@ -28,12 +29,13 @@ img {
 }
 
 li {
-
+  padding: 10px 20px 10px 20px;
+  border-right: 1px solid lightgrey;
   display: inline-block;
 }
 
 ul {
-  padding-top: 20px;
+  
   margin: 0px;
   word-spacing: 2em;
   list-style-type: none;
@@ -44,6 +46,7 @@ ul {
 }
 
 .shoe {
+  text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*border-style: solid;;*/
   margin: 15px 15px 15px 15px;
