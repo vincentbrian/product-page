@@ -7,6 +7,43 @@ body {
 
 }
 
+.shoe-text {
+  position: absolute;
+  color: white;
+  left: 0;
+  top: 25%;
+  right: 0;
+  bottom: 0;
+  font-size: 24px;
+  text-align: center;
+  opacity: 0;
+}
+
+.shoe:hover .shoe-text {
+  visibility: visible;
+  opacity: 1.0;
+}
+
+.shoe img {
+  padding: 0;
+  width: 100%;
+  display: block;
+  opacity: 1;
+}
+
+.shoe img,
+.shoe-text {
+  -webkit-transition: opacity 0.1s ease-out;
+  -moz-transition: opacity 0.1s ease-out;
+  -o-transition: opacity 0.1s ease-out;
+  transition: opacity 0.1s ease-out;
+}
+
+
+h3 {
+  color: white;
+}
+
 .nike-text {
   text-align: center;
 }
@@ -60,7 +97,20 @@ ul {
   display: inline-block;
 }
 
-.shoe:hover > .overlay {
+.shoe {
+  width: 33.333%;
+  height: auto;
+  float: left;
+  padding: 0;
+  position: relative;
+  background-color: black;
+}
+
+.shoe:hover img {
+  opacity: 0.3;
+}
+
+/*.shoe:hover> .overlay {
     position: absolute;
     top: 0;
     width:100%;
@@ -70,7 +120,7 @@ ul {
     opacity:0.8;
     z-index: 100;
     display: block;
-}
+}*/
 
 .container::after {
     content:"";
