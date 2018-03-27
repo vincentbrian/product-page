@@ -4,7 +4,11 @@ body {
   font-weight: 200;
   color: black;
 
-  margin: 0;
+  margin: 0px;
+}
+
+a {
+  color: black;
 }
 
 /*<--------------- underline ----------------->*/
@@ -13,6 +17,10 @@ body {
 /*<--------------- helpers ----------------->*/
 
 /* ------------ nav ------------ */
+.navbar-left {
+  float: left;
+  margin-bottom: 20px;
+}
 .navbar-left a {
   height: 50px;
   padding: 15px 15px;
@@ -25,9 +33,6 @@ body {
   text-decoration: none;
 }
 
-.navbar-left  {
-  float: left;
-}
 .navbar-right ul {
   list-style: none;
   padding:0;
@@ -39,28 +44,36 @@ body {
   margin: auto 20px;
 
 }
+/* ------------ footer ------------ */
+.footer {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.footer ul li {
+  text-decoration: none;
+  padding: 0px 10px;
+  display: inline-block;
+}
+.footer ul li a {
+  text-decoration: none;
+}
 
 /* ------------ home ------------ */
-#home-image-container {
-  max-width: 960px;
-  margin: 0 auto;
+
+#home-image {
+  /* max-width: 960px; */
+
 }
 
-.main-image {
-  width: 100%;
-  height: auto;
-  overflow:hidden;
-}
+
 
 .main-image img {
   margin-top: -200px;
   width: 100%;
 }
 
-.home-images-container {
-  max-width: 960px;
-  width: 100%;
-}
+
 
 .links-container ul {
 
@@ -68,28 +81,62 @@ body {
 }
 
 .links-container li {
-  padding: auto 10px;
+  padding: 0px 10px;
   display: inline-block;
 }
 
 .links-container a {
   text-decoration: none;
 }
-/* ------------ Img Block ------------ */
-#home-portfolio .img-block a {
-  display: block;
-  height: 250px;
+/* ------------ portfolio ------------ */
+#home-portfolio {
+
+  width: 80%;
+margin: 0px auto;
+}
+.row {
+
+
 }
 
-#home-portfolio .img-block {
-
+.column {
+  display: inline-block;
+  max-width: 100%;
 }
-
-.img-block {
-  width: 100%;
-  display: block;
+/* .row:before,
+ .row:after {
+     content:"";
+     display: table ;
+     clear:both;
+ } */
+.portfolio-item {
   padding: 5px;
+
+
 }
+.image a {
+    width: 250px;
+    height: 250px;
+
+    display: block;
+
+}
+
+.image-text {
+    letter-spacing: 1.33px;
+    position: absolute;
+    color: white;
+    left: 0;
+    top: 70%;
+    right: 0;
+    bottom: 0;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0;
+}
+
+/* ------------ Img Block ------------ */
+
 /* ------------------------- */
 
 /* ------------------------- */
@@ -99,16 +146,6 @@ body {
 
 /* ------------------------- */
 
-/* ------------ portfolio ------------ */
-.portfolio-item {
-  float: left;
-  display: inline-block;
-}
-.image {
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-}
 
 /* ------------ projects ------------ */
 
