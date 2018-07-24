@@ -1,0 +1,22 @@
+header {
+  height: 51px;
+  border-bottom: 1px solid darkgrey;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+}
+.container ul {
+  display: flex;
+}
+.container ul li {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
