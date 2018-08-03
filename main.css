@@ -105,8 +105,8 @@ a {
 
     flex:2;
   }
-  .navbar-links {
-    /* display: none; */
+  .hide {
+    display: flex;
 
   }
   .navbar-links ul {
@@ -114,6 +114,7 @@ a {
     align-items:flex-end;
     background-color: darkgrey;
     margin-top: 1px;
+    display: none;
 
   }
   .navbar-links li {
