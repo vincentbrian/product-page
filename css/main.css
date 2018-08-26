@@ -63,15 +63,23 @@ a {
 .serivice-header {
   text-align: center;
 }
-.services {
+/* .services {
   align-items: center;
   text-align: center;
   display: flex;
   justify-content: space-around;
+} */
+.services {
+  align-items: center;
+  text-align: center;
+  display: flex;
 }
-.service-text h2 {
+.service-1 {
+  width: 33.33%;
+}
+/* .service-text h2 {
   width: 150px;
-}
+} */
 .cover-image img {
   width: 100%;
   display: flex;
@@ -114,7 +122,8 @@ a {
   }
 
   .navbar-logo {
-    height: 40px;
+    padding-left: 20px;
+    height: 60px;
     display: flex;
     align-items: center;
   }
@@ -136,6 +145,7 @@ a {
   .hamburger {
     margin: 0px;
     display: flex;
+    padding-right: 20px;
     width: 100%;
     flex-flow: row;
     flex-wrap: nowrap;
@@ -160,5 +170,48 @@ a {
   }
   .service-section {
     text-align: center;
+  }
+  .service-section {
+    margin: 0px -50px;
+    background-color: var(  --grey-1-color);
+  }
+  .service-icon {
+    font-size: 50px;
+  }
+  .serivice-header {
+    text-align: center;
+  }
+  .services {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* .services {
+    align-items: center;
+    text-align: center;
+    display: flex;
+  } */
+  .service-1 {
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var( --grey-3-color);
+  }
+  .footer a {
+    color: var(--grey-1-color);
+  }
+  .footer-list {
+    margin: 0px;
+    padding:40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: var(--grey-4-color);
+
+  }
+  .github-icon {
+    font-size: 30px;
   }
 }
