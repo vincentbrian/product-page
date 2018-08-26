@@ -1,13 +1,37 @@
+/* <----------------- variables ---------------> */
+:root {
+  --grey-1-color:	#D3D3D3;
+  --grey-2-color:	#C0C0C0;
+  --grey-3-color:	#A9A9A9;
+  --grey-4-color:	#808080;
+
+}
+
+/* <----------------- end variables ---------------> */
 body {
   margin: 0px;
   padding: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 a {
+  color: black;
   list-style-type: none;
   text-decoration: none;
 }
+
+/* <----------------- colors ---------------> */
+
+
+/* <----------------- end colors ---------------> */
+.col-half {
+  width: 50%;
+}
 .header {
 
+}
+.wrapper-nav {
+  max-width: 1200px;
+  margin: 0px auto;
 }
 .navbar-container {
   display: flex;
@@ -26,16 +50,27 @@ a {
 .hamburger {
   display: none;
 }
+.wrapper {
+  margin: 0px 50px;
+}
 .service-section {
-
+  margin: 0px -50px;
+  background-color: var(  --grey-1-color);
+}
+.service-icon {
+  font-size: 50px;
 }
 .serivice-header {
   text-align: center;
 }
 .services {
+  align-items: center;
   text-align: center;
   display: flex;
   justify-content: space-around;
+}
+.service-text h2 {
+  width: 150px;
 }
 .cover-image img {
   width: 100%;
@@ -49,6 +84,14 @@ a {
 }
 .about-header h1 {
   margin: 0px;
+}
+.bio {
+  display: flex;
+  align-items: center;
+}
+.bio-image {
+  width: 200px;
+  height: 100%;
 }
 .navbar-links ul {
   display: flex;
