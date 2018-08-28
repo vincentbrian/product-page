@@ -23,6 +23,12 @@ a {
 
 
 /* <----------------- end colors ---------------> */
+/* <----------------- helpers ---------------> */
+.section {
+  margin: 20px 0px 50px 0px;
+}
+
+/* <----------------- end helpers ---------------> */
 .col-half {
   width: 50%;
 }
@@ -55,6 +61,7 @@ a {
 }
 .service-section {
   margin: 0px -50px;
+  /* padding: 10px 0px 50px 0px; */
   background-color: var(  --grey-1-color);
 }
 .service-icon {
@@ -107,6 +114,24 @@ a {
 }
 .navbar-links li {
   padding:0px 10px;
+}
+.footer a {
+  font-size: 20px;
+  color: var(--grey-1-color);
+}
+.footer-list {
+  margin: 0px;
+  padding:40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: var(--grey-4-color);
+
+}
+.github-icon {
+  font-size: 30px;
 }
 @media screen and (max-width: 600px) {
   body,html {
@@ -198,6 +223,7 @@ a {
     border-bottom: 2px solid var( --grey-3-color);
   }
   .footer a {
+    font-size: 20px;
     color: var(--grey-1-color);
   }
   .footer-list {
